@@ -42,6 +42,7 @@ div.content{
     background-color: #cccccc;
     padding-top:0.2%;
     margin-top: 20%;
+    margin: 20% 22% 0 22%;
 }
 
 h1{
@@ -50,7 +51,7 @@ h1{
 
 div.text{
     text-align: left;
-    padding: 10px 22% 10px 22%;
+    padding: 10px 22% 30px 22%;
 }
 
 div.footer{
@@ -63,4 +64,8 @@ div.footer{
     margin: 0;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+div.side{
+    background-color: #bdbcbc;
 }
