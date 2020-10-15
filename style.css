@@ -1,12 +1,22 @@
 @font-face {
     font-family: Poppins;
     src: url(/fonts/Poppins/);
-  }
+}
 
+@font-face {
+    font-family: Noto;
+    src: url(/fonts/Noto_Serif/);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+}
 
 body {
     margin: 0;
     background-color: #cccccc;
+    height: 100%;
 }
 
 #navbar ul {
@@ -39,8 +49,7 @@ li a.activeNavBar{
 
 img.bg{
     width: 100%;
-    max-height: 500px;
-    height: auto;
+    height: 35%;
     object-fit: cover;
     position: fixed;
     z-index: -1;
@@ -49,23 +58,21 @@ img.bg{
 
 div.sticky{
     width: 100%;
-    top:0;
+    height:30%;
+    top: 0;
 }
 
 div.content{
     background-color: #cccccc;
     padding-top:0.2%;
     margin-top: 20%;
-    margin: 20% 22% 0 22%;
-}
-
-h1{
-    text-align: center;
+    margin: 0% 22% 0 22%;
 }
 
 div.text{
     text-align: left;
     padding: 10px 22% 30px 22%;
+    font-family: Roboto;
 }
 
 div.footer{
@@ -76,10 +83,25 @@ div.footer{
     color: white;
     text-align: center;
     margin: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: Noto, sans-serif;
 }
 
-div.side{
-    background-color: #bdbcbc;
+h1 {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #464646;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.row{
+    background-color: #bdbdbd;
 }
