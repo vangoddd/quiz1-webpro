@@ -67,12 +67,18 @@ div.content{
     padding-top:0.2%;
     margin-top: 20%;
     margin: 0% 22% 0 22%;
+    min-height: 51vh;
+    height: auto;
+    padding-bottom: 5%;
 }
 
-div.text{
+.text{
     text-align: left;
     padding: 10px 22% 30px 22%;
     font-family: Roboto;
+    text-indent: 1.6em;
+    font-size: 1.3em;
+    color: #222222;
 }
 
 div.footer{
@@ -83,9 +89,10 @@ div.footer{
     color: white;
     text-align: center;
     margin: 0;
-    padding-top: 1%;
-    padding-bottom: 1%;
     font-family: Noto, sans-serif;
+    position: absolute;
+    height: 2.5rem;
+    padding-top: 1em;
 }
 
 h1 {
@@ -100,8 +107,17 @@ h1 {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
 .row{
     background-color: #bdbdbd;
+    min-height: 100%;
+    height: auto;
 }
+
+#page-container {
+    position: relative;
+    height: auto;
+    min-height: 100vh;
+}
+  
