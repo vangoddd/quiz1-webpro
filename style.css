@@ -59,13 +59,12 @@ li a.activeNavBar{
 
 img.bg{
     width: 100%;
-    height: auto;
-    min-height: 30vh;
+    height: 40vh;
     object-fit: cover;
-    position: relative;
+    position: fixed;
     z-index: -1;
-    top: 50%;
-    transform: translatey(-50%);
+    top: 0%;
+    vertical-align: middle;
 }
 
 div.sticky{
