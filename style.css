@@ -31,6 +31,16 @@ li {
     float: left;
 }
 
+li#date{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
 li a {
     display: block;
     color: white;
@@ -49,16 +59,18 @@ li a.activeNavBar{
 
 img.bg{
     width: 100%;
-    height: 35%;
+    height: auto;
+    min-height: 30vh;
     object-fit: cover;
-    position: fixed;
+    position: relative;
     z-index: -1;
-    top: 0;
+    top: 50%;
+    transform: translatey(-50%);
 }
 
 div.sticky{
     width: 100%;
-    height:30%;
+    height: 30vh;
     top: 0;
 }
 
@@ -91,7 +103,7 @@ div.footer{
     margin: 0;
     font-family: Noto, sans-serif;
     position: absolute;
-    height: 2.5rem;
+    height: 2rem;
     padding-top: 1em;
 }
 
