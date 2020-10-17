@@ -1,16 +1,16 @@
 @font-face {
     font-family: Poppins;
-    src: url(../fonts/Poppins/);
+    src: url(fonts/Poppins/);
 }
 
 @font-face {
     font-family: Noto;
-    src: url(../fonts/Noto_Serif/);
+    src: url(fonts/Noto_Serif/);
 }
 
 @font-face {
     font-family: Roboto;
-    src: url(../fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+    src: url(fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
 }
 
 body {
